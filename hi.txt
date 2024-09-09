@@ -1,0 +1,162 @@
+<!-- div.skill>div.skill-fathert*4>img.skill-img+h3.skill-title+p.skill-para -->
+            <!-- <div class="skill-grandfather">
+                <div class="skill-father">
+                    <img src="images/icons/js.png" alt="">
+                    <h3 class="skill-title">Vanilla JavaScript</h3>
+                    <p class="skill-para">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill-father">
+                    <img src="images/icons/react.png" alt="">
+                    <h3 class="skill-title">React</h3>
+                    <p class="skill-para">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill-father">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h3 class="skill-title">Node.js</h3>
+                    <p class="skill-para">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill-father">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h3 class="skill-title">MongoDB</h3>
+                    <p class="skill-para">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="Resume">
+            <h2 class="resume-title">A summary of My Resume</h2>
+            <div class="son-of-resume">
+                <div>
+                    <h2 class="my-edu">My Education</h2>
+                    <div>
+                        <h2 class="resume-sub-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-sub-sub">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-para">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                            <hr>
+                    </div>
+                    <div>
+                        <h2 class="resume-sub-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-sub-sub">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-para">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                            <hr>
+                    </div>
+                    <div>
+                        <h2 class="resume-sub-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-sub-sub">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-para">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                            
+                    </div>       
+                </div>
+                <div>
+                    <h2 class="my-edu">My Experience</h2>
+                    <div>
+                        <h2 class="resume-sub-title">Sr. Font End Developer</h2>
+                        <h3 class="resume-sub-sub">Apple Inc / 2020 - Current</h3>
+                        <p class="resume-para">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                            <hr>
+                    </div>
+                    <div>
+                        <h2 class="resume-sub-title">Sr. Font End Developer</h2>
+                        <h3 class="resume-sub-sub">Apple Inc / 2020 - Current</h3>
+                        <p class="resume-para">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                            <hr>
+                    </div>
+                    <div>
+                        <h2 class="resume-sub-title">Sr. Font End Developer</h2>
+                        <h3 class="resume-sub-sub">Apple Inc / 2020 - Current</h3>
+                        <p class="resume-para">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                            
+                    </div>       
+                </div>
+            </div>
+            
+            <div class="d">
+                <button class="common-btn" type="button">Download CV</button>
+            </div>
+            
+
+        </section> -->
+
+
+
+
+
+
+
+
+
+
+        .skill-grandfather{
+    display: flex;
+    margin-top: 50px;
+}
+.skill-father{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-right: 20px;
+}
+.skill-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* This is Resume Section */
+.Resume{
+    /* display: flex; */
+    margin: 0px 200px;
+}
+.resume-title{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.my-edu{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.son-of-resume{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+.resume-sub-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-sub-sub{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-para{
+    color: #757575;
+    font-size: 16px;
+    margin-top: 20px;
+}
+hr{
+    width: 90%;
+    background: #D1D1D1;
+    margin: 30px 0px;
+}
+/* .b{
+    background-color: aqua;
+    text-align: center;
+} */
+.d{
+    margin-top: 50px;
+    text-align: center;
+}
